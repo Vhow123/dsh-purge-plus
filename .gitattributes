@@ -1,0 +1,12 @@
+* text=auto eol=lf
+
+# 构建产物里内嵌 CSS 源文本，换行符会进产物字符串。
+# 强制 LF 才能让 `npm run build --check` 在 Windows 与 CI 上一致。
+*.css  text eol=lf
+*.js   text eol=lf
+*.mjs  text eol=lf
+*.cjs  text eol=lf
+*.yml  text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.sh   text eol=lf
