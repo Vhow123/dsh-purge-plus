@@ -10,3 +10,8 @@
 *.json text eol=lf
 *.md   text eol=lf
 *.sh   text eol=lf
+
+# Windows 脚本交给 cmd.exe / Windows PowerShell 5.1 执行，必须 CRLF。
+*.ps1  text eol=crlf
+*.cmd  text eol=crlf
+*.bat  text eol=crlf
