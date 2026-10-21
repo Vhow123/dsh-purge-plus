@@ -65,11 +65,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luowang-ui/dsh-purge-plus.git"
+    "url": "git+https://github.com/Vhow123/dsh-purge-plus.git"
   },
-  "homepage": "https://github.com/luowang-ui/dsh-purge-plus#readme",
+  "homepage": "https://github.com/Vhow123/dsh-purge-plus#readme",
   "bugs": {
-    "url": "https://github.com/luowang-ui/dsh-purge-plus/issues"
+    "url": "https://github.com/Vhow123/dsh-purge-plus/issues"
   },
   "dsh": {
     "bundle": {
@@ -88,8 +88,8 @@
     },
     "install": {
       "preferred": "tarball",
-      "tarball": "https://github.com/luowang-ui/dsh-purge-plus/releases/latest/download/dsh-purge-plus-1.6.1.tgz",
-      "git": "https://github.com/luowang-ui/dsh-purge-plus.git"
+      "tarball": "https://github.com/Vhow123/dsh-purge-plus/releases/latest/download/dsh-purge-plus-1.6.1.tgz",
+      "git": "https://github.com/Vhow123/dsh-purge-plus.git"
     }
   },
   "publishConfig": {

@@ -6,9 +6,9 @@
 
 DeepSeek Harness 的提示词、规则与技能管理 · 原生右侧面板 · 版本检测 · 本机备份与插件回滚
 
-[![Release](https://img.shields.io/github/v/release/luowang-ui/dsh-purge-plus?label=Community)](https://github.com/luowang-ui/dsh-purge-plus/releases)
-[![Checks](https://github.com/luowang-ui/dsh-purge-plus/actions/workflows/community.yml/badge.svg)](https://github.com/luowang-ui/dsh-purge-plus/actions/workflows/community.yml)
-[发行与下载](https://github.com/luowang-ui/dsh-purge-plus/releases) · [安装与迁移](#安装与迁移) · [兼容范围](#兼容范围) · [反馈问题](https://github.com/luowang-ui/dsh-purge-plus/issues) · [English](docs/README.en.md)
+[![Release](https://img.shields.io/github/v/release/Vhow123/dsh-purge-plus?label=Community)](https://github.com/Vhow123/dsh-purge-plus/releases)
+[![Checks](https://github.com/Vhow123/dsh-purge-plus/actions/workflows/community.yml/badge.svg)](https://github.com/Vhow123/dsh-purge-plus/actions/workflows/community.yml)
+[发行与下载](https://github.com/Vhow123/dsh-purge-plus/releases) · [安装与迁移](#安装与迁移) · [兼容范围](#兼容范围) · [反馈问题](https://github.com/Vhow123/dsh-purge-plus/issues) · [English](docs/README.en.md)
 
 </div>
 
@@ -75,7 +75,7 @@ DeepSeek Harness 的提示词、规则与技能管理 · 原生右侧面板 · �
 
 ## 安装与迁移
 
-需要 Node.js 22+、已初始化的 DSH Desktop，以及桌面版自带的 `dsh` CLI。先从 [Releases](https://github.com/luowang-ui/dsh-purge-plus/releases/latest) 下载 `dsh-purge-plus-1.2.0.tgz` 和 `SHA256SUMS.txt`。
+需要 Node.js 22+、已初始化的 DSH Desktop，以及桌面版自带的 `dsh` CLI。先从 [Releases](https://github.com/Vhow123/dsh-purge-plus/releases/latest) 下载 `dsh-purge-plus-1.2.0.tgz` 和 `SHA256SUMS.txt`。
 
 **推荐：使用带备份的安装器，首次安装和旧版迁移都走同一路径。** macOS 示例，在下载目录运行：
 
@@ -132,4 +132,4 @@ node test/cwd-compat.mjs /absolute/path/to/dsh-system-prompt/lib/index.js
 
 原项目：[YuJunZhiXue/dsh-purge](https://github.com/YuJunZhiXue/dsh-purge)，原作者 **小杨**。本分支保留 Git 历史和 MIT [LICENSE](LICENSE)，第三方来源见 [NOTICE](NOTICE.md)。上游原说明保存在 [docs/upstream](docs/upstream/README.zh-CN.md)。
 
-社区版的名称、安装包、发布与更新源由本仓库独立管理。问题请提交到[本仓库 Issues](https://github.com/luowang-ui/dsh-purge-plus/issues)，附 DSH/插件版本、复现步骤和去掉敏感内容的日志；不需要提交个人提示词或完整备份。
+社区版的名称、安装包、发布与更新源由本仓库独立管理。问题请提交到[本仓库 Issues](https://github.com/Vhow123/dsh-purge-plus/issues)，附 DSH/插件版本、复现步骤和去掉敏感内容的日志；不需要提交个人提示词或完整备份。

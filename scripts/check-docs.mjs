@@ -17,7 +17,7 @@ if (notesFirst !== `# ${version}`) {
 if (!readme.includes(`**${version}**`)) {
   problems.push(`README.md 首屏缺少版本号 **${version}**`);
 }
-if (!readme.includes("raw.githubusercontent.com/kingcharleslzy-ai/dsh-purge/master/scripts/install.sh")) {
+if (!readme.includes("raw.githubusercontent.com/Vhow123/dsh-purge-plus/main/scripts/install.sh")) {
   problems.push("README.md 缺少一行安装命令");
 }
 if (!readmeEn.includes(`Current version ${version}`)) {

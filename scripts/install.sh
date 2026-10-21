@@ -1,6 +1,6 @@
 #!/bin/sh
 # Purge Community installer — one line:
-#   curl -fsSL https://raw.githubusercontent.com/kingcharleslzy-ai/dsh-purge/master/scripts/install.sh | sh
+#   curl -fsSL https://raw.githubusercontent.com/Vhow123/dsh-purge-plus/master/scripts/install.sh | sh
 #
 # 做四件事：找到 DSH 桌面版 → 下载最新发行包 → 校验 SHA256 → 用 DSH 自带运行时跑安装器
 #（安装器会先备份 profile，再把旧 Purge 入口合并成 dsh-purge-plus）。
@@ -12,7 +12,7 @@
 # 参数：--dry-run 只下载校验，不安装；--version=X 同 PURGE_VERSION
 set -eu
 
-REPO="kingcharleslzy-ai/dsh-purge"
+REPO="Vhow123/dsh-purge-plus"
 APP="${DSH_APP:-/Applications/DeepSeek Harness.app}"
 VERSION="${PURGE_VERSION:-}"
 DRY=0

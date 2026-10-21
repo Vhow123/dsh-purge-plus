@@ -12,6 +12,7 @@ which is itself an independently maintained fork of **dsh-purge**
 | Upstream | `YuJunZhiXue/dsh-purge` | 小杨 / YuJunZhiXue |
 | Community fork | `kingcharleslzy-ai/dsh-purge` (Purge Community) | kingcharleslzy-ai |
 | This repository | `luowang-ui/dsh-purge-plus` (Purge Community Plus) | luowang-ui |
+| Mirror (this copy) | `Vhow123/dsh-purge-plus` — independent copy of the above, self-hosted so that it keeps working if any upstream repository disappears | Vhow123 |
 
 ## Changes in this repository
 

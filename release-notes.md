@@ -1,3 +1,12 @@
+# 1.6.1
+
+> 1.6.1 = 相对 1.6.0 的两处兼容修复（#119 宿主加载期 fatal、presets 残留 toolFilter）；本仓为其自托管镜像版本。
+
+- **#119 修复**：`lib/core.js` 新增 `atomicCopyFileSync()`，`lib/desktop.js` 的 `repairOfficialCliAfterUnpack()` 改用它——原来漏 `await`，异步复制失败抛出的 unhandled rejection 会在宿主加载期杀掉进程。
+- **presets 修复**：`presets/redteam/agent.cordis.yml`、`presets/unrestricted/agent.cordis.yml` 去掉 `toolFilter` 块（DSH 0.2.1 的 `dsh-tool-subagent` 会直接拒收）。
+- **元数据**：包名 `dsh-purge-plus`，`engines.dsh` 上移到根，兼容门读得到支持范围。
+- **镜像化**：更新源、安装源与 issue 地址改指 `Vhow123/dsh-purge-plus`；任何上游仓库消失都不影响本机的安装、加载与更新检查。
+
 # 1.6.0
 
 > 1.6.0 = 动作审计日志 + 发行包 smoke test（进 CI）+ 一轮全项目体检修复。

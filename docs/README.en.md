@@ -1,5 +1,7 @@
 # Purge Community
 
+Current version 1.6.1 · verified on DSH Desktop **0.2.1-rc.2** (rc.1 also passes).
+
 An independently maintained community fork of [YuJunZhiXue/dsh-purge](https://github.com/YuJunZhiXue/dsh-purge), originally created by **小杨**. This is not an official upstream release. Original attribution, Git history and the MIT license are retained. This community distribution is free and is not offered for paid resale.
 
 ## What it does
@@ -18,7 +20,7 @@ DSH is not short of capability; it is gated four times. Purge removes those gate
 ## Install
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/luowang-ui/dsh-purge-plus/master/scripts/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/Vhow123/dsh-purge-plus/main/scripts/install.sh | sh
 ```
 
 The script finds DSH Desktop, downloads the latest verified release, checks SHA256 and runs the installer with DSH's own runtime (it snapshots the profile first, then merges the old Purge entries into `dsh-purge-plus`).

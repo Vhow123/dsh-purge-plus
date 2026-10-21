@@ -9,7 +9,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   release:
-    if: github.repository == 'kingcharleslzy-ai/dsh-purge'
+    if: github.repository == 'Vhow123/dsh-purge-plus'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

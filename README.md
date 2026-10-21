@@ -6,10 +6,10 @@
 
 83 条宿主补丁 · 27 层破甲自检 · 提示词 / 规则 / 技能管理 · 左侧栏整页设置
 
-[![Release](https://img.shields.io/github/v/release/luowang-ui/dsh-purge-plus?label=release)](https://github.com/luowang-ui/dsh-purge-plus/releases)
-[![Checks](https://github.com/luowang-ui/dsh-purge-plus/actions/workflows/community.yml/badge.svg)](https://github.com/luowang-ui/dsh-purge-plus/actions/workflows/community.yml)
+[![Release](https://img.shields.io/github/v/release/Vhow123/dsh-purge-plus?label=release)](https://github.com/Vhow123/dsh-purge-plus/releases)
+[![Checks](https://github.com/Vhow123/dsh-purge-plus/actions/workflows/community.yml/badge.svg)](https://github.com/Vhow123/dsh-purge-plus/actions/workflows/community.yml)
 
-当前版本 **1.6.0** · 适配 **DSH Desktop 0.2.1-rc.2**（rc.1 同样通过） · [English](docs/README.en.md)
+当前版本 **1.6.1** · 适配 **DSH Desktop 0.2.1-rc.2**（rc.1 同样通过） · [English](docs/README.en.md)
 
 </div>
 
@@ -18,7 +18,7 @@
 ## 一行安装
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/luowang-ui/dsh-purge-plus/master/scripts/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/Vhow123/dsh-purge-plus/main/scripts/install.sh | sh
 ```
 
 它会自动：找 DSH 桌面版 → 下载最新发行包 → 校验 SHA256 → 用 DSH 自带运行时跑安装器（**先备份 profile**，再把旧的 Purge 入口合并成一个）。
@@ -30,8 +30,8 @@ curl -fsSL https://raw.githubusercontent.com/luowang-ui/dsh-purge-plus/master/sc
 
 ```sh
 V=1.6.0
-curl -fsSLO https://github.com/luowang-ui/dsh-purge-plus/releases/download/v$V/dsh-purge-plus-$V.tgz
-curl -fsSLO https://github.com/luowang-ui/dsh-purge-plus/releases/download/v$V/SHA256SUMS.txt
+curl -fsSLO https://github.com/Vhow123/dsh-purge-plus/releases/download/v$V/dsh-purge-plus-$V.tgz
+curl -fsSLO https://github.com/Vhow123/dsh-purge-plus/releases/download/v$V/SHA256SUMS.txt
 shasum -a 256 -c SHA256SUMS.txt && mkdir -p /tmp/pc && tar -xzf dsh-purge-plus-$V.tgz -C /tmp/pc
 ELECTRON_RUN_AS_NODE=1 "/Applications/DeepSeek Harness.app/Contents/MacOS/DeepSeek Harness" \
   /tmp/pc/package/bin/community.js migrate "$PWD/dsh-purge-plus-$V.tgz"
