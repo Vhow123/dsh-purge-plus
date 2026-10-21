@@ -1,7 +1,7 @@
 name: Native panel
 on:
   push:
-    branches: [native-panel]
+    branches: [main, native-panel]
     paths: ['packages/purge-panel/**', '.github/workflows/native-panel.yml']
   pull_request:
     paths: ['packages/purge-panel/**', '.github/workflows/native-panel.yml']

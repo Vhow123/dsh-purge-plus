@@ -1,7 +1,7 @@
 name: Community checks
 on:
   push:
-    branches: [master, native-panel]
+    branches: [main, native-panel]
   pull_request:
   workflow_dispatch:
 permissions:
